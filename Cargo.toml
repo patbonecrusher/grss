@@ -1,0 +1,18 @@
+[package]
+name = "grss"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+anyhow = "1.0"
+clap-verbosity-flag = "2.0.1"
+once_cell = "1.18.0"
+log = "0.4.19"
+owo-colors = { version = "3.5.0", features = ["supports-colors"] }
+serde = { version = "1.0.171", features = ["derive"] }
+confy = "0.5.1"
+dunce = "1.0.4"
+clap_complete = "4.3.2"
